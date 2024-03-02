@@ -1,0 +1,36 @@
+{
+  "name": "api.envsha.re",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:format": "prettier --cache --check .",
+    "format": "prettier --cache --write ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "next": "14.1.1",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/parser": "^7.1.0",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.1",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
