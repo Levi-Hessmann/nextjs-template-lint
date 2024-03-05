@@ -1,5 +1,6 @@
 {
-  "name": "api.envsha.re",
+  "name": "nextjs-template-lint",
+  "author": "Levi Hessmann Einzelunternehmen",
   "version": "0.1.0",
   "private": true,
   "scripts": {
