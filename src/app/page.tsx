@@ -1,3 +1,10 @@
+import Container from "@/components/container";
+import Hero from "@/components/landing/hero";
+
 export default function Page() {
-  return <p>Hello World!</p>;
+  return (
+    <Container>
+      <Hero />
+    </Container>
+  );
 }
